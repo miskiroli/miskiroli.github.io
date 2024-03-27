@@ -21,7 +21,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         //Server settings
         $mail->SMTPDebug = SMTP::DEBUG_OFF;
         $mail->isSMTP();                                            
-        $mail->Host       = 'smtp.google.com';                     
+        $mail->Host       = 'smtp.gmail.com';                     
         $mail->SMTPAuth   = true;                                   
         $mail->Username   = 'miski.roland91@gmail.com';                     
         $mail->Password = $_ENV['SMTP_PASSWORD'];                          
